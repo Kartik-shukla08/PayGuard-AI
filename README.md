@@ -1,5 +1,5 @@
-SafePay-AI is an XGBoost-based UPI fraud detection system featuring real-time detection, batch processing, a Streamlit web app, and CI/CD pipeline deployment using Docker and GitHub Actions
 # SafePay-AI
+SafePay-AI is an XGBoost-based UPI fraud detection system featuring real-time detection, batch processing, a Streamlit web app, and CI/CD pipeline deployment using Docker and GitHub Actions
 
 # Software and Tools Requirement 
 
