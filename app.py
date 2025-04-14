@@ -39,8 +39,8 @@ def visualize_results(df):
     st.plotly_chart(fig_line)
 
 # Streamlit app layout
-st.set_page_config(page_title="Safepay-AI", layout="wide")
-st.title("Welcome to Safepay-AI: Revolutionizing UPI Transactions with Fraud Detection Powered by AI")
+st.set_page_config(page_title="PayGuard-AI", layout="wide")
+st.title("Welcome to PayGuardAI: Revolutionizing UPI Transactions with Fraud Detection Powered by AI")
 st.markdown("""
     Inspect a single transaction by adjusting the parameters on the left sidebar, 
     or upload a CSV file to check multiple transactions at once. 
