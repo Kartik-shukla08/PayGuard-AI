@@ -53,7 +53,8 @@ st.sidebar.header("Individual Transaction")
 transaction_date = st.sidebar.date_input("Select Transaction Date")
 transaction_type = st.sidebar.selectbox("Select Transaction Type", ["Refund", "Bank Transfer", "Subscription", "Purchase", "Investment", "Other"])
 payment_gateway = st.sidebar.selectbox("Select Payment Gateway", ["SamplePay", "UPI Pay", "Dummy Bank", "Alpha Bank", "Other"])
-transaction_state = st.sidebar.selectbox("Select Transaction State", ["Chhattisgarh", "Himachal Pradesh", "Mizoram", "Other"])
+transaction_state = st.sidebar.selectbox("Select Transaction State", ["Maharashtra", "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh", "Goa", "Gujarat", "Haryana", "Himachal Pradesh", "Jharkhand", "Karnataka", "Kerala", "Madhya Pradesh", "Manipur", "Meghalaya", "Mizoram", "Nagaland", "Odisha", "Punjab", "Rajasthan", "Sikkim", "Tamil Nadu", "Telangana", "Tripura", "Uttar Pradesh", "Uttarakhand", "West Bengal", "Other"
+])
 merchant_category = st.sidebar.selectbox("Select Merchant Category", ["Brand Vouchers and OTT", "Home delivery", "Utilities", "Other"])
 transaction_amount = st.sidebar.number_input("Enter Transaction Amount upto 5,00,000(UPI Transaction Limit)", min_value=0.0, max_value=500000.0)
 
